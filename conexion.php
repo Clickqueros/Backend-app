@@ -1,6 +1,5 @@
 <?php 
 
-// print_r($mysqli);// print_r($mysqli);// print_r($mysqli);
 
 $mysqli = new mysqli("127.0.0.1","clickque_secure","Secure2020@","clickque_secure");
 // print_r($mysqli);
