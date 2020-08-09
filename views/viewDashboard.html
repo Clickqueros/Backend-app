@@ -1,0 +1,69 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-12 encabezado mb-3">
+      <div class="row justify-content-center">
+        <div class="col-md-5 espacio-text">
+          <img class="mb-4 text-center" src="images/logo.png" alt="Totalseguros mobile" width="250px">
+          <h4 class="display-4 color-seguro">¡BIENVENIDO!</h4>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 pb-3">
+      <form class="form-inline"> 
+        <div class="p-2">
+          <input class="form-control mr-sm-2" id="findDoc" type="search" placeholder="Cédula" aria-label="Search">
+        </div>
+        <div class="p-2">
+          <input class="form-control mr-sm-2" id="findName" type="search" placeholder="Nombre" aria-label="Search">
+        </div>
+        <div class="p-2 pull-right">
+          <button class="btn btn-sm btn-info pull-right" id="exportInfo">Exportar Información <i class="fa fa-file-excel-o" aria-hidden="true"></i></button>
+        </div>
+      </form>
+    </div>
+    <div class="col-md-12">
+      <table class="table table-striped border-table table-bordered table-responsive-web" id="table_referenced">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Nombres</th>
+            <th scope="col">Documento</th>
+            <th scope="col">Correo</th>
+            <th scope="col">Celular</th>
+            <th scope="col">Referido Por</th>
+            <th scope="col">Poliza</th>
+            <th scope="col">Estado</th>
+            <th scope="col">Descuento</th>
+            <th scope="col">Editar</th>
+            <th scope="col">Redimir</th>
+          </tr>
+        </thead>
+        <tbody>
+          
+        </tbody>
+      </table>
+      <div id="viewTableExport">
+        <table class="table table-striped border-table d-none" border="1" id="table_export">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Nombres</th>
+              <th scope="col">Documento</th>
+              <th scope="col">Correo</th>
+              <th scope="col">Celular</th>
+              <th scope="col">Referido Por</th>
+              <th scope="col">Poliza</th>
+              <th scope="col">Estado</th>
+              <th scope="col">Descuento</th>
+            </tr>
+          </thead>
+          <tbody>
+            
+          </tbody>
+        </table>          
+      </div>
+    </div>
+  </div> 
+</div>

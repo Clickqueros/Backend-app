@@ -1,0 +1,104 @@
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.bg-seguros{
+  background: #556015;
+}
+.main-button{
+  font-size: 16px;
+  padding: 15px 30px;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  font-family: "Tahoma", Sans-serif;
+  font-weight: 800;
+  background-color: #556015;
+  border: none;  
+  color: #ffffff !important;
+}
+.main-button:hover{
+  background-color: #727276;
+  border: none;
+}
+.search-button{
+  background-color: #0000;
+  border: 1px solid #556015;  
+  color: #556015 !important;
+}
+.search-button:hover{
+  background-color: #556015;
+  border: 1px solid #ffffff;  
+  color: #ffffff !important;
+}
+.border-table{
+  border: 1px solid #dee2e6;
+}
+.color-seguro{
+  color: #556015;
+  font-family: "Tahoma", Sans-serif;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #556015;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #55601566;
+}
+.custom-select:focus {
+    border-color: #556015;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem #55601566;
+}
+.form-control{
+    border: 1px solid #556015 !important;
+}
+.custom-select{
+    border: 1px solid #556015 !important;
+}
+.button-edit{
+  background: #556015;
+  color: #ffffff;
+}
+.table-info, .table-info>td, .table-info>th {
+    background-color: #aaad00;
+    color: #ffffff;
+}
+.table-success, .table-success>td, .table-success>th {
+    background-color: #556015;
+    color: #ffffff;
+}
+.checkboxSpecial input:checked + .primary:after {
+    border-color: #556015 !important;
+}
+.btn-info {
+    color: #ffffff !important;
+    background-color: #aaad00 !important;
+    border-color: #aaad00 !important;
+}
+.btn-info:hover {
+    color: #ffffff !important;
+    background-color: #556015 !important;
+    border-color: #556015 !important;
+}
+.encabezado{
+  background-color: #aaad00 !important;
+  padding: 30px;
+}
+.espacio-text{
+  background: #ffffff;
+  border-radius: 10px;
+}
+@media(max-width:768px){
+  .color-seguro {
+    font-size: 30px !important;
+}
+}
+@media(max-width: 1200px)
+{
+  .table-responsive-web {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+}

@@ -1,0 +1,2 @@
+UPDATE users SET photo = data:image/jpeg;base64,content://com.android.providers.media.documents/document/image%3A232, image = 'data:image/jpeg;base64,content://com.android.providers.media.documents/document/image%3A232'
+						WHERE id_user = '1'
